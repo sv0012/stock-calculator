@@ -17,7 +17,7 @@ function calculateProfitAndLoss(init,curr,qt){
     } else if (curr > init){
         profit = (curr - init) * qt;
         profitPercentage = (profit / init) * 100;
-        output.innerText = "Sorry Bud! Your profit percentage is  " + profitPercentage+"% and your profit is " + profit;
+        output.innerText = "Congratulations! Your profit percentage is  " + profitPercentage+"% and your profit is " + profit;
     } else {
         output.innerText = "No pain No Gain,No Gain Yes Pain";
     }
